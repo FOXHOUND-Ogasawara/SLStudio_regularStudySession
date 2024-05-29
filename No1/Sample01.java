@@ -1,10 +1,11 @@
-public class Sample3 {
+// Sample01.java
+public class Sample01 {
     public static void main(String[] args) {
 
         int age = 20;
 
         // 条件にあった場合のみのシンプルな構文
-        if (age >= 1) {
+        if (age >= 18) {
             System.out.println("条件を満たしています");
         }
 
