@@ -1,11 +1,10 @@
-public class PaperBook extends Book{
-    public PaperBook(String category) {
-        super(category);
-        this.type = "紙の書籍";
+public class PaperBook extends Book2 {
+    public PaperBook(String name) {
+        super(name, "紙の書籍");
     }
 
     @Override
     public void read() {
-        System.out.println(type + "の" + category + "をめくりながら読みます");
+        System.out.println(getType() + "なのでページをめくりながら読みます");
     }
 }
