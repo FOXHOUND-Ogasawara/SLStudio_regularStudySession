@@ -1,23 +1,19 @@
 public class Sample02a {
     public static void main(String[] args) {
         // インスタンス化
-        Person taro = new Person();
+        Company comA = new Company();
+        Company comB = new Company("株式会社B", "東京都", 100);
+        Company comC = new Company("株式会社C", "千葉県", 36);
+        Company comD = new Company("D株式会社", "東京都", 982);
 
-        // フィールドに値を代入する
-        taro.name = "太郎";
-        taro.age = 30;
-        taro.address = "東京都";
+        comA.showCompanyData();
+        comB.showCompanyData();
 
-        // メソッドの呼び出し
-        taro.showProfile();
+        comC.updateCompanyAddress("神奈川県");
+        comC.showCompanyData();
 
-        // Person jiro = new Person();
-        // jiro.name = "二郎";
-        // jiro.age = 20;
-        // jiro.address = "東京都";
-        // jiro.showProfile();
+        comD.showEmployeeCount();
 
-        // taroのインスタンスには影響がでない
-        // taro.showProfile();
+        System.out.println("現在の企業数は" + Company.allCompanyCount() + "社となります");
     }
 }
