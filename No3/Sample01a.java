@@ -4,7 +4,7 @@ public class Sample01a {
         int result = 0;
 
         // 何と表示される？
-        seyHello();
+        sayHello();
 
         // sum()を利用して「結果は120です」と表示させるには？
         // ??
@@ -13,7 +13,7 @@ public class Sample01a {
         // ??
     }
 
-    public static void seyHello() {
+    public static void sayHello() {
         System.out.println("Hello");
     }
 
