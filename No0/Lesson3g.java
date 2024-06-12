@@ -1,3 +1,4 @@
+
 // classの上にこの3行を書く
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

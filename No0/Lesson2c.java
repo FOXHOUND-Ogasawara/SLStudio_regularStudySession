@@ -24,7 +24,16 @@ public class Lesson2c {
         // 2で割ったあまりを出力してみる
         System.out.println(9 % 2); // 1 が出力
 
+        /*
+         * 文字列を扱う
+         */
+        // 文字列を出力する
+        System.out.println("こんにちは！");
+
+        // 文字列連結を利用した出力
+        System.out.println("プログラミング学習は今日で" + 3 + "日目です");
+
         // こうした場合はどうなるでしょうか？？
-        System.out.println("5+2は"(5 + 2) + "です");
+        System.out.println("5+2は" + 5 + 2 + "です");
     }
 }
