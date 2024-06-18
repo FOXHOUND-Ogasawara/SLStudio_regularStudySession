@@ -5,5 +5,9 @@ public class Sample02a {
 
         eBook.read();
         pBook.read();
+
+        // 本を注文する処理の実装
+        eBook.order(10);
+        eBook.order(5);
     }
 }

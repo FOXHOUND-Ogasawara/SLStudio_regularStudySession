@@ -23,6 +23,17 @@ public class Sample01b {
             inputData = inputData();
         }
 
+        // while文
+        // String inputData = "";
+        // while (true) {
+        // System.out.println("文字を入力してください");
+        // inputData = br.readLine();
+        // if (!inputCheck(inputData))
+        // continue;
+        // else
+        // break;
+        // }
+
         return inputData;
     }
 

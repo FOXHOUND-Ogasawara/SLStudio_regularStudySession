@@ -8,9 +8,17 @@ public class Sample01a {
 
         // sum()を利用して「結果は120です」と表示させるには？
         // ??
+        int num1 = 60;
+        int num2 = 60;
+        sum(num1, num2);
 
         // calculation()を利用して計算し結果を表示するには？
         // ??
+        calculation(1, 2, "+");
+        calculation(1, 2, "-");
+        calculation(1, 2, "*");
+        calculation(1, 2, "/");
+        calculation(1, 2, " ");
     }
 
     public static void sayHello() {
