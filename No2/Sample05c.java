@@ -1,27 +1,18 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
 public class Sample05c {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        // シンプルなfor文
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+        }
 
-        int num = 0;
-
-        while (true) {
-
-            System.out.println("1~10の数値を入力してください");
-            String inputNumber = reader.readLine();
-            num = Integer.parseInt(inputNumber);
-
-            if (num < 1 || num > 10) {
-                System.out.println("1~10以外の数値を検知しました");
-                continue;
+        // 繰り返しをネストさせることも可能
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.println("i:" + i + "| j:" + j);
+                // System.out.print(i % 2 == 1 ? 1 : 0);
             }
-
-            System.out.println("入力された数値は " + num + " です");
-            break;
+            System.out.println();
         }
     }
 }
