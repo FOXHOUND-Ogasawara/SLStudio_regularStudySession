@@ -13,6 +13,7 @@ public class Sample05b {
 
         // 条件
         while (flag) {
+            count++;
             System.out.println("数値を入力してください");
             String inputNumber = reader.readLine();
             int num = Integer.parseInt(inputNumber);
