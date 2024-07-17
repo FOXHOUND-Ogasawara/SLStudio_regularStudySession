@@ -1,0 +1,54 @@
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>フォーム</title>
+</head>
+
+<body>
+    <!-- GET用フォーム -->
+    <h2>GET送信</h2>
+    <form action="/many" method="get">
+        <div>
+            <label for="name">お名前：</label>
+            <input type="text" name="name">
+        </div>
+        <div>
+            <label for="age">年齢：</label>
+            <input type="text" name="age">
+        </div>
+        <div>
+            <label for="job">ご職業：</label>
+            <input type="text" name="job">
+        </div>
+        <div>
+            <input type="submit" value="GET送信">
+        </div>
+    </form>
+
+    <!-- POST用フォーム -->
+    <h2>POST送信</h2>
+    <form action="/many" method="post">
+        <div>
+            <label for="name">お名前：</label>
+            <input type="text" name="name">
+        </div>
+        <div>
+            <label for="age">年齢：</label>
+            <input type="text" name="age">
+        </div>
+        <div>
+            <label for="cardNumber">カード番号：</label>
+            <input type="number" name="cardNumber">
+        </div>
+        <div>
+            <label for="password">パスワード：</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <input type="submit" value="POST送信">
+        </div>
+    </form>
+</body>
+
+</html>

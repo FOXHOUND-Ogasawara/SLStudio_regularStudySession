@@ -1,0 +1,17 @@
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>趣味を表示します</title>
+</head>
+
+<body>
+    <h2>あなたのお名前は…</h2>
+    <p th:text="${name}"></p>
+    <h3>あなたの趣味はこんな感じです</h3>
+    <ul th:each="hobby : ${hobbys}">
+        <li th:text="${hobby}"></li>
+    </ul>
+</body>
+
+</html>
