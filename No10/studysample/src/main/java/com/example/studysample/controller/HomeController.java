@@ -25,7 +25,7 @@ public class HomeController {
         return "index";
     }
 
-    @GetMapping("/many/{age}/{name}/{job}") // localhost:8080/many?name=taro&age=17&job=engineer
+    @GetMapping("/many/{age}/{name}/{job}")
     // localhost:8080/many/17/-/engineer
     public String manyQueryParam(
             @PathVariable("name") String name,
@@ -52,7 +52,9 @@ public class HomeController {
     }
 
     @GetMapping("login") // localhost:8080/login
-    public String login(@RequestParam(name = "id") String id, @RequestParam(name = "password") String password)
+    public String login(@RequestParam(name = "id") String id, @RequestParam(name = "password") String password) {
+        return null;
+    }
 
     @GetMapping("/hobby")
     public String showHobby(
@@ -83,21 +85,4 @@ public class HomeController {
         model.addAttribute("userInput", userForm);
         return "manyPost";
     }
-
-    @GetMapping("/user/{id}")
-    public String editUser(@PathVariable("id") Integer id, Model model) {
-        Optional<User> user = userRepository.findById(id);
-        if (user.get().getName().isEmpty())
-            return "404-page";
-        model.addAttribute("user", user.get());
-        return "user-edit";
-    }
 }
-
-/*
- * userForm
- *  name : XXX
- *  age : 18
- *  cardNumber : XXXXxXX
- *  password : XXXXXX
- */
