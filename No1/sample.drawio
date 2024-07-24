@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="f4UBo18mcEA0K9dttLWH" name="IC">
-        <mxGraphModel dx="961" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="843" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -67,83 +67,83 @@
         </mxGraphModel>
     </diagram>
     <diagram id="LVAakl77Y9Hq_VEKzcOf" name="ATM">
-        <mxGraphModel dx="961" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="662" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="pVTVM25Zlst_Pasr8GN9-3" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="pVTVM25Zlst_Pasr8GN9-1" target="pVTVM25Zlst_Pasr8GN9-2">
+                <mxCell id="pVTVM25Zlst_Pasr8GN9-3" value="" style="edgeStyle=none;html=1;" parent="1" source="pVTVM25Zlst_Pasr8GN9-1" target="pVTVM25Zlst_Pasr8GN9-2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVTVM25Zlst_Pasr8GN9-1" value="ATMからお金を&lt;br&gt;引き出すまでの動作" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="pVTVM25Zlst_Pasr8GN9-1" value="ATMからお金を&lt;br&gt;引き出すまでの動作" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="40" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVTVM25Zlst_Pasr8GN9-5" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="pVTVM25Zlst_Pasr8GN9-2" target="pVTVM25Zlst_Pasr8GN9-4">
+                <mxCell id="pVTVM25Zlst_Pasr8GN9-5" value="" style="edgeStyle=none;html=1;" parent="1" source="pVTVM25Zlst_Pasr8GN9-2" target="pVTVM25Zlst_Pasr8GN9-4" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVTVM25Zlst_Pasr8GN9-2" value="引き出す金額を入力" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                <mxCell id="pVTVM25Zlst_Pasr8GN9-2" value="引き出す金額を入力" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="180" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVTVM25Zlst_Pasr8GN9-7" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" target="pVTVM25Zlst_Pasr8GN9-6">
+                <mxCell id="pVTVM25Zlst_Pasr8GN9-7" value="" style="edgeStyle=none;html=1;" parent="1" target="pVTVM25Zlst_Pasr8GN9-6" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="100" y="400" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="pVTVM25Zlst_Pasr8GN9-21" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pVTVM25Zlst_Pasr8GN9-7">
+                <mxCell id="pVTVM25Zlst_Pasr8GN9-21" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pVTVM25Zlst_Pasr8GN9-7" vertex="1" connectable="0">
                     <mxGeometry x="-0.6143" y="1" relative="1" as="geometry">
                         <mxPoint x="-1" y="17" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="pVTVM25Zlst_Pasr8GN9-11" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="pVTVM25Zlst_Pasr8GN9-4" target="pVTVM25Zlst_Pasr8GN9-10">
+                <mxCell id="pVTVM25Zlst_Pasr8GN9-11" value="" style="edgeStyle=none;html=1;" parent="1" source="pVTVM25Zlst_Pasr8GN9-4" target="pVTVM25Zlst_Pasr8GN9-10" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVTVM25Zlst_Pasr8GN9-18" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pVTVM25Zlst_Pasr8GN9-11">
+                <mxCell id="pVTVM25Zlst_Pasr8GN9-18" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pVTVM25Zlst_Pasr8GN9-11" vertex="1" connectable="0">
                     <mxGeometry x="-0.4154" y="2" relative="1" as="geometry">
                         <mxPoint x="16" y="2" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="pVTVM25Zlst_Pasr8GN9-4" value="預金残高が&lt;br&gt;足りるか？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                <mxCell id="pVTVM25Zlst_Pasr8GN9-4" value="預金残高が&lt;br&gt;足りるか？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="45" y="300" width="110" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVTVM25Zlst_Pasr8GN9-9" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="pVTVM25Zlst_Pasr8GN9-6" target="pVTVM25Zlst_Pasr8GN9-8">
+                <mxCell id="pVTVM25Zlst_Pasr8GN9-9" value="" style="edgeStyle=none;html=1;" parent="1" source="pVTVM25Zlst_Pasr8GN9-6" target="pVTVM25Zlst_Pasr8GN9-8" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVTVM25Zlst_Pasr8GN9-6" value="入力された金額を&lt;br&gt;預金から減らす" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                <mxCell id="pVTVM25Zlst_Pasr8GN9-6" value="入力された金額を&lt;br&gt;預金から減らす" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="470" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVTVM25Zlst_Pasr8GN9-8" value="入力された金額を&lt;br&gt;ATMから払い出し" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                <mxCell id="pVTVM25Zlst_Pasr8GN9-8" value="入力された金額を&lt;br&gt;ATMから払い出し" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="570" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVTVM25Zlst_Pasr8GN9-13" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="pVTVM25Zlst_Pasr8GN9-10" target="pVTVM25Zlst_Pasr8GN9-12">
+                <mxCell id="pVTVM25Zlst_Pasr8GN9-13" value="" style="edgeStyle=none;html=1;" parent="1" source="pVTVM25Zlst_Pasr8GN9-10" target="pVTVM25Zlst_Pasr8GN9-12" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVTVM25Zlst_Pasr8GN9-10" value="残高不足を伝え&lt;br&gt;再度入力へ" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                <mxCell id="pVTVM25Zlst_Pasr8GN9-10" value="残高不足を伝え&lt;br&gt;再度入力へ" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="220" y="320" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVTVM25Zlst_Pasr8GN9-15" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="pVTVM25Zlst_Pasr8GN9-12" target="pVTVM25Zlst_Pasr8GN9-14">
+                <mxCell id="pVTVM25Zlst_Pasr8GN9-15" value="" style="edgeStyle=none;html=1;" parent="1" source="pVTVM25Zlst_Pasr8GN9-12" target="pVTVM25Zlst_Pasr8GN9-14" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVTVM25Zlst_Pasr8GN9-20" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pVTVM25Zlst_Pasr8GN9-15">
+                <mxCell id="pVTVM25Zlst_Pasr8GN9-20" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pVTVM25Zlst_Pasr8GN9-15" vertex="1" connectable="0">
                     <mxGeometry x="-0.3778" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="pVTVM25Zlst_Pasr8GN9-16" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pVTVM25Zlst_Pasr8GN9-12" target="pVTVM25Zlst_Pasr8GN9-2">
+                <mxCell id="pVTVM25Zlst_Pasr8GN9-16" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pVTVM25Zlst_Pasr8GN9-12" target="pVTVM25Zlst_Pasr8GN9-2" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="485" y="210"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="pVTVM25Zlst_Pasr8GN9-19" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pVTVM25Zlst_Pasr8GN9-16">
+                <mxCell id="pVTVM25Zlst_Pasr8GN9-19" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pVTVM25Zlst_Pasr8GN9-16" vertex="1" connectable="0">
                     <mxGeometry x="-0.2471" y="-3" relative="1" as="geometry">
                         <mxPoint x="60" y="63" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="pVTVM25Zlst_Pasr8GN9-12" value="操作が&lt;br&gt;3回以下か？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                <mxCell id="pVTVM25Zlst_Pasr8GN9-12" value="操作が&lt;br&gt;3回未満か？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="420" y="310" width="130" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="pVTVM25Zlst_Pasr8GN9-14" value="残高不足を伝えて&lt;br&gt;処理を終了" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-                    <mxGeometry x="640" y="320" width="120" height="60" as="geometry"/>
+                <mxCell id="pVTVM25Zlst_Pasr8GN9-14" value="残高不足を伝えて&lt;br&gt;処理を終了" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="320" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
