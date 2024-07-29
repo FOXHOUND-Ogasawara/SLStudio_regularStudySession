@@ -11,7 +11,7 @@ public class Sample06b {
 
         // for文と組み合わせると？
         for (int i = 0; i < nums.length; i++) {
-            System.out.println(nums[i]);
+            System.out.print(nums[i] + ", ");
         }
 
         // こんな書き方も用意されている
