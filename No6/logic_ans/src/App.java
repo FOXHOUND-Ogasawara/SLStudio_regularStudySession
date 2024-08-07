@@ -22,10 +22,10 @@ public class App {
                     TASK_LOGIC.showTaskList();
                     break;
                 case "2":
-                TASK_LOGIC.createTask();
+                    TASK_LOGIC.createTask();
                     break;
                 case "3":
-                TASK_LOGIC.updateTask();
+                    TASK_LOGIC.updateTask();
                     break;
                 case "4":
                     System.out.println("終了します");

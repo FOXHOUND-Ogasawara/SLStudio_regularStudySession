@@ -38,6 +38,11 @@ public class TaskLogic {
     public void createTask() throws Exception {
         System.out.println("タスクを入力してください");
         System.out.print("入力: ");
+        String title = READER.readLine();
+        Task lastTask = TASK_DATA_ACCESS.findAll().getLast();
+
+        Task task = new Task(lastTask.getId() + 1, title);
+        TASK_DATA_ACCESS.save(task);
 
         System.out.println("新規タスクを追加しました");
     }
@@ -45,7 +50,34 @@ public class TaskLogic {
     public void updateTask() throws Exception {
         System.out.println("編集するタスクIDを入力してください");
         System.out.print("入力: ");
-        
+        Task task = null;
+        while (true) {
+            int id = Integer.parseInt(READER.readLine());
+            task = TASK_DATA_ACCESS.findById(id);
+            if (task == null) {
+                System.out.println("存在するタスクIDを指定してください。");
+                continue;
+            } else
+                break;
+        }
+        System.out.println("編集したい内容を選んでください。");
+        System.out.print("1: ステータス 2: タイトル:");
+        String update = "";
+        while (true) {
+            update = READER.readLine();
+            if (!(update.equals("1") || update.equals("2"))) {
+                System.out.println("1,2のいずれかを入力してください。");
+                continue;
+            } else
+                break;
+        }
+        if (update.equals("1")) {
+            task.setStatus(updateTaskStatus());
+        } else {
+            task.setTitle(updateTaskTitle());
+        }
+        TASK_DATA_ACCESS.update(task);
+
         System.out.println("タスクを更新しました");
     }
 
