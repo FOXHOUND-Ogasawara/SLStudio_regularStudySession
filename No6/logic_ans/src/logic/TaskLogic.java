@@ -3,6 +3,7 @@ package logic;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.nio.charset.Charset;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
@@ -26,12 +27,14 @@ public class TaskLogic {
         }
 
         tasks.forEach(n -> {
-            System.out.print(n.getId() + "|");
-            System.out.print(n.getStatus() + "|");
-            System.out.print(n.getTitle() + "|");
-            System.out.print(n.getCreateAt() + "|");
-            System.out.print(n.getDueDate() + "|");
-            System.out.println();
+            if (!n.getStatus().equals("対応済み")) {
+                System.out.print(n.getId() + "|");
+                System.out.print(n.getStatus() + "|");
+                System.out.print(n.getTitle() + "|");
+                System.out.print(n.getCreateAt() + "|");
+                System.out.print(n.getDueDate() + "|");
+                System.out.println();
+            }
         });
     }
 
@@ -49,9 +52,9 @@ public class TaskLogic {
 
     public void updateTask() throws Exception {
         System.out.println("編集するタスクIDを入力してください");
-        System.out.print("入力: ");
         Task task = null;
         while (true) {
+            System.out.print("入力: ");
             int id = Integer.parseInt(READER.readLine());
             task = TASK_DATA_ACCESS.findById(id);
             if (task == null) {
@@ -61,20 +64,23 @@ public class TaskLogic {
                 break;
         }
         System.out.println("編集したい内容を選んでください。");
-        System.out.print("1: ステータス 2: タイトル:");
+        System.out.println("1: ステータス 2: タイトル: 3: 期限");
         String update = "";
         while (true) {
+            System.out.print("入力: ");
             update = READER.readLine();
-            if (!(update.equals("1") || update.equals("2"))) {
-                System.out.println("1,2のいずれかを入力してください。");
+            if (!(update.equals("1") || update.equals("2") || update.equals("3"))) {
+                System.out.println("1,2,3のいずれかを入力してください。");
                 continue;
             } else
                 break;
         }
         if (update.equals("1")) {
             task.setStatus(updateTaskStatus());
-        } else {
+        } else if (update.equals("2")) {
             task.setTitle(updateTaskTitle());
+        } else {
+            task.setDueDate(updateDueDate());
         }
         TASK_DATA_ACCESS.update(task);
 
@@ -114,6 +120,14 @@ public class TaskLogic {
 
         String title = READER.readLine();
         return title;
+    }
+
+    public LocalDate updateDueDate() throws Exception {
+        System.out.println("変更後の期限を入力してください");
+        System.out.print("入力: ");
+
+        LocalDate dueDate = LocalDate.parse(READER.readLine());
+        return dueDate;
     }
 
     // 最後のタスクIDに+1した数値を取得する
