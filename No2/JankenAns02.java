@@ -24,6 +24,12 @@ public class JankenAns02 {
 
             // 勝敗判定用
             int result = myChoice - enemyChoice;
+            // ロジック解説
+            /*
+             * あいこ:result 0
+             * 勝ち  :result -1 or 2
+             * 負け  :result 1 or -2
+             */
             // あいこを先に判定
             if (result == 0) {
                 System.out.println("あいこ");
