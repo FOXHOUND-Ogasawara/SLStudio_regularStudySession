@@ -1,0 +1,14 @@
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>複数のクエリパラメータを受け取る</title>
+</head>
+
+<body>
+    <p th:text="'お名前：' + ${aaa}"></p>
+    <p th:text="'年齢：' + ${age} + '歳(' + ${message} +')'"></p>
+    <p th:if="${age} >= 18" th:text="'職業：' + ${job}"></p>
+</body>
+
+</html>

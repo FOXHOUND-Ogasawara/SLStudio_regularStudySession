@@ -77,12 +77,8 @@ public class HomeController {
             @ModelAttribute UserForm userForm,
             Model model) {
 
-        System.out.println(userForm.getName());
-        if (userForm.getName().isEmpty()) {
-            userForm.setName("名無し");
-        }
-
         model.addAttribute("userInput", userForm);
         return "manyPost";
     }
+
 }
