@@ -8,6 +8,6 @@ public class Sample02a {
 
         // 本を注文する処理の実装
         eBook.order(10);
-        eBook.order(5);
+        pBook.order(5);
     }
 }
