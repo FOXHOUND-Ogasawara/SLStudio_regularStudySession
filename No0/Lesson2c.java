@@ -5,11 +5,12 @@ public class Lesson2c {
          */
         // 数値を出力
         System.out.println(12345);
+        System.out.println("12345");
 
         // 足し算してみる
-        System.out.println(1 + 1 + 1);
+        System.out.println("1" + "1" + "1"); // 111
         // 引き算してみる
-        System.out.println(10 - 2);
+        System.out.println(10 - 2); // 8
         // 掛け算してみる
         System.out.println(2 * 3);
         // 割り算してみる
@@ -34,6 +35,6 @@ public class Lesson2c {
         System.out.println("プログラミング学習は今日で" + 3 + "日目です");
 
         // こうした場合はどうなるでしょうか？？
-        System.out.println("5+2は" + 5 + 2 + "です");
+        System.out.println("5+2は" + 5 + 2 + "です"); // 5+2は7です
     }
 }

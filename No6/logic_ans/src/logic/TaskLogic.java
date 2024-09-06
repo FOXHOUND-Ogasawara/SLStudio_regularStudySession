@@ -123,7 +123,7 @@ public class TaskLogic {
     }
 
     public LocalDate updateDueDate() throws Exception {
-        System.out.println("変更後の期限を入力してください");
+        System.out.println("変更後の期限を入力してください(入力形式：yyyy-mm-dd)");
         System.out.print("入力: ");
 
         LocalDate dueDate = LocalDate.parse(READER.readLine());

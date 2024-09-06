@@ -45,7 +45,7 @@ public class Task {
         return title;
     }
 
-    public void setDueData(LocalDate duDate) {
+    public void setDueDate(LocalDate duDate) {
         this.dueDate = duDate;
     }
 
